@@ -1,0 +1,10 @@
+dbport: '27017'
+dbname: CustomerDB
+server:
+  port: '8081'
+logging:
+  level:
+    org:
+      springframework:
+        boot:
+          autoconfigure: ERROR
